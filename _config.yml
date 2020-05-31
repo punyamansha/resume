@@ -1,5 +1,5 @@
 # Site settings
-title: "Product Manager: Geetesh"
+title: "Product Manager - Geetesh"
 description: "Building products for the next billion"
 
 # Build settings
@@ -9,9 +9,9 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
+resume_avatar:                  "false"
 resume_name:                    "Geetesh Sachdeva"
-resume_title:                   "Product Manager"
+resume_title:                   "Product Manager at Crownit | sachdevageetesh@gmail.com | 9764486633"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "sachdevageetesh@gmail.com"
