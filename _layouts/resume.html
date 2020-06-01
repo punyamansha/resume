@@ -67,6 +67,24 @@
       </section>
       <!-- end Experience -->
       {% endif %}
+      
+       {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        {% for skill in site.data.skills %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ skill.skill }}</h4>
+          <p class="resume-item-copy">{{ skill.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
 
 
       {% if site.resume_section_education %}
@@ -117,23 +135,7 @@
       <!-- end Projects -->
       {% endif %}
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
-      {% endif %}
+     
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
@@ -232,8 +234,8 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Let's connect for a quick chat on my <a href="mailto:sachdevageetesh@gmail.com">email</a>.</p>
+        
       </footer>
 
     </div>
