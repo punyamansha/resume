@@ -1,6 +1,6 @@
 # Site settings
-title: "Product Manager - Geetesh"
-description: "Building products for the next billion"
+title: "Punya Mansha: Resume"
+description: "Test Automation Lead"
 
 # Build settings
 markdown: kramdown
@@ -10,17 +10,17 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "Geetesh Sachdeva"
-resume_title:                   "Building products for the next billion"
+resume_name:                    "Punya Mansha"
+resume_title:                   "Test Automation Lead"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "sachdevageetesh@gmail.com"
+resume_contact_email:           "punyasachdeva8@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "9764486633"
-resume_contact_address:         "Gurgaon, India"
+resume_contact_telephone:       "9545390589"
+resume_contact_address:         "Mumbai, India"
 
-resume_header_contact_info:     "Gurgaon, India • +91-97644-86633 • sachdevageetesh@gmail.com"
+resume_header_contact_info:     "Mumbai, India • +91-95453-90589 • punyasachdeva8@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>5 years of experience building enterprise monitoring products for companies such as IBM, HP, Applied Materials.
@@ -37,7 +37,7 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        false
+resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     false
 resume_section_links:           false
@@ -48,10 +48,10 @@ resume_section_interests:       false
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   # resume_github_url:            "https://github.com/jglovier/resume-template"
-   resume_twitter_url:           "https://twitter.com/sachdevageetesh"
+   # resume_twitter_url:           "https://twitter.com/sachdevageetesh"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-   resume_linkedin_url:          "https://www.linkedin.com/in/sachdevageetesh"
+   resume_linkedin_url:          "https://www.linkedin.com/in/punya-mansha-04707145"
   # resume_instagram_url:         "insert your Instagram URL here"
   # resume_website_url:           "http://joelglovier.com"
   # resume_medium_url:            "https://medium.com/@jglovier"
